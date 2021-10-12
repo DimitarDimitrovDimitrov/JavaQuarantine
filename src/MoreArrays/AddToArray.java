@@ -1,10 +1,10 @@
 package MoreArrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class AddToArray {
-    public static int[] addX(int n, int arr[], int x)
-    {
+    public static int[] addX(int n, int[] arr, int x) {
         int i;
 
         // we need to create a new array of size n+1
@@ -22,15 +22,13 @@ public class AddToArray {
         return newarr;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         int n = 10;
         int i;
 
         // the initial size is 10
-        int arr[]
-                = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         // print the original array
         System.out.println("Initial Array:\n"
@@ -46,5 +44,6 @@ public class AddToArray {
                 + " added:\n"
                 + Arrays.toString(arr));
     }
+
 }
 

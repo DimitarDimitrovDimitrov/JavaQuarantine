@@ -1,0 +1,11 @@
+Covered Topics for Arrays -
+What is an array?
+When do we use arrays?
+Array initialization
+Array different uses
+Array Access different elements
+Array Two dimensional arrays
+Differences between Array and List?
+List use cases
+###
+
