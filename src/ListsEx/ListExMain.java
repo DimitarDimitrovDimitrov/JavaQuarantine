@@ -12,8 +12,6 @@ public class ListExMain {
         arrayOfNames[1] = "Sparrow";
         arrayOfNames[2] = "Jack";
 
-
-
         List<String> listOfNames = new ArrayList<>();
         listOfNames.add("Anne");
         listOfNames.add("Michael");

@@ -8,4 +8,15 @@ Array Two dimensional arrays
 Differences between Array and List?
 List use cases
 ###
-
+How to sort an array and different ways of sorting an array?
+What is a linked List?
+When do we use linked lists?
+What is a stack?
+When do we use Stacks?
+What is a Set?
+When do we use Sets?
+What is a Map?
+When do we use Maps?
+What is a Queue?
+When do we use Queue?
+###

@@ -1,6 +1,6 @@
 package MoreArrays;
 
-import java.util.ArrayList;
+
 import java.util.Arrays;
 
 public class AddToArray {
@@ -8,7 +8,7 @@ public class AddToArray {
         int i;
 
         // we need to create a new array of size n+1
-        int newarr[] = new int[n + 1];
+        int[] newarr = new int[n + 1];
 
         // insert the elements from
         // the old array into the new array
