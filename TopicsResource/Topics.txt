@@ -11,6 +11,7 @@ List use cases
 How to sort an array and different ways of sorting an array?
 What is a linked List?
 When do we use linked lists?
+Singly linked List
 What is a stack?
 When do we use Stacks?
 What is a Set?
