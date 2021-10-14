@@ -1,9 +1,9 @@
-package MoreArrays;
-
+package com.ArraysInit;
 
 import java.util.Arrays;
 
 public class AddToArray {
+
     public static int[] addX(int n, int[] arr, int x) {
         int i;
 

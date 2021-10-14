@@ -1,4 +1,4 @@
-package ListsEx;
+package listEx;
 
 class Node {
     public int data;

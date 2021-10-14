@@ -1,4 +1,4 @@
-package ListsEx;
+package listEx;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

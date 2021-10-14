@@ -1,4 +1,4 @@
-package ListsEx;
+package listEx;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,6 +8,7 @@ public class ListExMain {
         //Array and ArrayList comparison
 
         String[] arrayOfNames = new String[3];  //Arrays have fixed size. They can't automatically scale.
+
         arrayOfNames[0] = "Alf";
         arrayOfNames[1] = "Sparrow";
         arrayOfNames[2] = "Jack";
