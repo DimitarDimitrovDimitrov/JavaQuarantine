@@ -21,3 +21,6 @@ When do we use Maps?
 What is a Queue?
 When do we use Queue?
 ###
+Java Sorting Algorithms
+MergeSort
+
