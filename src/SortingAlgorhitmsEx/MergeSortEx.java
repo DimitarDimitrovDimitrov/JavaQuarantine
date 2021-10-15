@@ -1,26 +1,31 @@
 package SortingAlgorhitmsEx;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class MergeSortEx {
     public static void main(String[] args) {
+
         Random random = new Random();
         int[] numbers = new int[100];
 
-        for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = random.nextInt(100000);
-        }
-        System.out.println("Before:");
+        Arrays.setAll(numbers, i -> random.nextInt(100));
+
+        long time1 = System.nanoTime();
+        System.out.println("Before: " + time1);
         printArray(numbers);
 
         mergeSort(numbers);
 
-        System.out.println("\n" + "After " + "\n");
+        System.out.println("\n" + "After: " + "\n");
+        long time2 = System.nanoTime();
+        System.out.println(time2 - time1);
         printArray(numbers);
 
     }
 
     private static void mergeSort(int[] inputArray) {
+
         int inputLength = inputArray.length;
         if (inputLength < 2) {
             return;
@@ -30,14 +35,10 @@ public class MergeSortEx {
         int[] leftHalf = new int[midIndex];
         int[] rightHalf = new int[inputLength - midIndex];
 
-        for (int i = 0; i < midIndex; i++) {
-            leftHalf[i] = inputArray[i];
-        }
+        System.arraycopy(inputArray, 0, leftHalf, 0, midIndex);
 
-        for (int i = midIndex; i < inputLength; i++) {
-
-            rightHalf[i - midIndex] = inputArray[i];
-        }
+        if (inputLength - midIndex >= 0)
+            System.arraycopy(inputArray, midIndex, rightHalf, midIndex - midIndex, inputLength - midIndex);
 
         mergeSort(leftHalf);
         mergeSort(rightHalf);
@@ -80,10 +81,7 @@ public class MergeSortEx {
     }
 
     private static void printArray(int[] numbers) {
-
-        for (int i = 0; i < numbers.length; i++) {
-            System.out.println(numbers[i]);
-        }
+        System.out.println(Arrays.toString(numbers));
 
     }
 }
