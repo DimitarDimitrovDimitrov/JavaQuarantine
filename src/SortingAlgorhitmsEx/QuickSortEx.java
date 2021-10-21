@@ -1,15 +1,23 @@
 package SortingAlgorhitmsEx;
 
+import java.util.Arrays;
+import java.util.Random;
+
 public class QuickSortEx {
+
     public static void main(String[] args) {
 
-        int[] array = {8, 2, 5, 3, 9, 4, 7, 6, 1};
+        Random random = new Random();
 
-        quickSort(array, 0, array.length - 1);
+        long time1 = System.nanoTime();
+        System.out.println("Before" + time1);
+        int[] array = new int[100000000];
+        Arrays.setAll(array, i -> random.nextInt(100000000));
+        quickSort(array, 500000000, array.length - 1);
 
-        for (int i : array) {
-            System.out.print(i + " ");
-        }
+        long time2 = System.nanoTime();
+        System.out.println("AFTER");
+        System.out.println(time2 - time1);
     }
 
     private static void quickSort(int[] array, int start, int end) {

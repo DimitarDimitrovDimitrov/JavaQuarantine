@@ -7,20 +7,20 @@ public class MergeSortEx {
     public static void main(String[] args) {
 
         Random random = new Random();
-        int[] numbers = new int[100];
+        int[] numbers = new int[10000000];
 
-        Arrays.setAll(numbers, i -> random.nextInt(100));
+        Arrays.setAll(numbers, i -> random.nextInt(10000000));
 
         long time1 = System.nanoTime();
         System.out.println("Before: " + time1);
-        printArray(numbers);
+     //   printArray(numbers);
 
         mergeSort(numbers);
 
         System.out.println("\n" + "After: " + "\n");
         long time2 = System.nanoTime();
         System.out.println(time2 - time1);
-        printArray(numbers);
+     //   printArray(numbers);
 
     }
 
