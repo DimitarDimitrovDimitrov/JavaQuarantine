@@ -1,4 +1,4 @@
-package TimeComplexity;
+package timeComplexity;
 
 public class TimeComplexity {
 

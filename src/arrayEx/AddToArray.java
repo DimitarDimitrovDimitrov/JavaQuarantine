@@ -1,4 +1,4 @@
-package com.ArraysInit;
+package arrayEx;
 
 import java.util.Arrays;
 
