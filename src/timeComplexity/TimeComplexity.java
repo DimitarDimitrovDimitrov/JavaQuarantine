@@ -3,10 +3,9 @@ package timeComplexity;
 public class TimeComplexity {
 
     public static void main(String[] args) {
-        int n = 8;
+        int n = 13;
         System.out.println(n);
         FactorialComplexity(n);
-
     }
 
     public static void LogarithmicComplexity(int n) {
