@@ -4,7 +4,7 @@ public class Switch {
 
     public static void main(String[] args){
 
-        int day = 3;
+        int day = 4;
         String dayType;
         String dayString;
 
@@ -20,12 +20,16 @@ public class Switch {
                 break;
             case 4:
                 dayString = "Thursday";
+                break;
             case 5:
                 dayString = "Friday";
+                break;
             case 6:
                 dayString = "Saturday";
+                break;
             case 7:
                 dayString = "Sunday";
+                break;
 
             default:
                 dayString = "Invalid day";

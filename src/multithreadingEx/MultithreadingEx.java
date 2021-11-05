@@ -11,7 +11,7 @@ public class MultithreadingEx{
 
         Thread thread2 = new Thread(runnableEx);
 
-        threadExtendEx.setDaemon(true);
+        threadExtendEx.setDaemon(false);
 
         threadExtendEx.start();
         thread2.start();

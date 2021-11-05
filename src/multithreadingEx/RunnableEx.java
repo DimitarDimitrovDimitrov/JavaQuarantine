@@ -12,7 +12,7 @@ public class RunnableEx implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println(1/0);
+          //  System.out.println(1/0);
         }
         System.out.println("Thread #2 is finished");
     }
